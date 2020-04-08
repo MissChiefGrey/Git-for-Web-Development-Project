@@ -1,0 +1,30 @@
+https://codepen.io/MissChiefGrey/pen/ZEbzpXv
+
+1. What is the difference between an inline element and a block element?
+
+- inline element text goes within the same line there is no sperate sheet. You can't put block elements inside 	inline elements. inline elements do not need a  new line to exist. Block elements require the use of another line 	most of the time.
+  
+  
+2. What happens when an element is positioned absolutely? 
+
+- Fixed. The top, right, bottom, and left properties specify offsets from the edges of the element's containing 	block.
+
+
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+
+- By using the CSS box model: border;margin;padding;width;heights;radius
+
+    
+4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is     display inline-block by default
+	
+- Block: <p> , <div> , <header>/<footer>
+
+- inline: <a> & <span> 
+
+- Block-Inline: <button>
+
+
+5. In your own words, explain the box model. What is the fix for the box model? 
+- box modle styles the space surrounding the element.start with Img or text > width>heights>padding>border>margin>postiion
+
+- there is an issue with overlapping when it comes to the Box model not to mention each time the tedious math lesson that must be thought through. While reviewing an article from Fred Meyer "What’s Wrong with the CSS Box 	Model, and How to Fix It" Press UP. An alternative would be box-sizing: border-box
